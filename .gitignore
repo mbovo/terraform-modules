@@ -1,0 +1,6 @@
+helm
+
+.terraform*
+*.tfstate
+*.tfstate.backup
+inventory.yml
