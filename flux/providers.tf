@@ -27,8 +27,6 @@ terraform {
   }
 }
 
-provider "flux" {}
-
 provider "kubectl" {
   host                   = var.k8s_host
   client_certificate     = var.k8s_client_certificate
